@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+<!-- Bootstrap core CSS - compiled and minified -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img class ="logo" src="img/logo_white.svg">
+        </a>
+        </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Interscroller</a></li>
+          <li><a href="reveal.html">Reveal</a></li>
+          <li><a href="replace.html">Replace a Creative</a></li>
+          <li><a href="tracking.html">Tracking Pixel Issue</a></li>
+          <li><a href="expand.html">Expand Direction Issue</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div><!--end container-->
+  </nav>
+
+<!--Content-->
+  <div class = "container somespace">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Tracking Pixel Issue</h1>
+        <p>A Client has inadvertently added a 1x1 pixel within the tag which is causing the tag to be incorrectly positioned on the page; rewrite the tag to correct the error and center the unit onscreen.</p>
+      </div>
+    </div>
+  </div>
+
+<!--Tag Container: Above the Fold-->
+<div class="container-fluid">
+<div class="celtra-ad-v3">
+  <div id="trackingPixel" style="height:1px; width:1px;">
+    <img src="data:image/png,celtra" style="display: none" onerror="
+        (function(img) {
+            var params = {'clickUrl':'','expandDirection':'undefined','preferredClickThroughWindow':'','clickEvent':'advertiser','externalAdServer':'Custom','tagVersion':'3'};
+            var req = document.createElement('script');
+            req.id = params.scriptId = 'celtra-script-' + (window.celtraScriptIndex = (window.celtraScriptIndex||0)+1);
+            params.clientTimestamp = new Date/1000;
+            params.clientTimeZoneOffsetInMinutes = new Date().getTimezoneOffset();
+            var src = (window.location.protocol == 'https:' ? 'https' : 'http') + '://ads.celtra.com/26f76901/web.js?';
+            for (var k in params) {
+                src += '&amp;' + encodeURIComponent(k) + '=' + encodeURIComponent(params[k]);
+            }
+            req.src = src;
+            img.parentNode.insertBefore(req, img.nextSibling);
+        })(this);
+    "/>
+</div>
+</div><!--End Tag Container-->
+
+<!-- Main Content-->
+  <div class="container somespace">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <!--Column 1 -->
+          <div class = "col-xs-12 col-md-5">
+            <div class="img-placeholder">
+            </div>
+          </div>
+          <!--Column 2-->
+          <div class = "col-xs-12 col-md-7">
+  
+            <h3>Excelsior Ad Astra </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget metus ligula. Maecenas vel metus in eros rhoncus luctus in in ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae turpis felis. Quisque egestas felis a tincidunt auctor. Integer sit amet nunc ut lacus hendrerit dictum eget ut sem. Cras id ullamcorper sapien, et ultricies tellus. Proin aliquet vehicula porttitor</p>
+            <p>Aenean rutrum sollicitudin laoreet. Praesent viverra ante nulla, sed vehicula sapien pulvinar at. Proin eleifend, enim et convallis porttitor, magna eros lobortis sem, ac finibus sem turpis vel nunc. Proin condimentum tempor lectus quis vestibulum. Donec quis laoreet odio. Praesent felis nibh, tincidunt quis dui vitae, viverra fermentum nunc. Nam volutpat maximus pulvinar. Mauris semper tortor quis auctor blandit. Nunc gravida auctor quam, ac lacinia velit condimentum at. Vivamus bibendum tincidunt vestibulum. Duis ut odio in ex lacinia vestibulum. Phasellus ultricies eros at finibus ultricies. Nam sodales libero a felis luctus euismod. Mauris fringilla sem sed metus tempor pulvinar in in lorem.</p>         
+          </div>
+        </div>
+      </div>
+    </div><!--end main row-->
+  </div> <!-- end container -->
+
+  <div class="container somespace">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <!--Column 1 -->
+          <div class = "col-xs-12 col-md-5">
+            <div class="img-placeholder"></div>
+          </div>
+          <!--Column 2-->
+          <div class = "col-xs-12 col-md-6">
+            <h3>Faber Est Suae Quisque Fortunae </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget metus ligula. Maecenas vel metus in eros rhoncus luctus in in ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae turpis felis. Quisque egestas felis a tincidunt auctor. Integer sit amet nunc ut lacus hendrerit dictum eget ut sem. Cras id ullamcorper sapien, et ultricies tellus. Proin aliquet vehicula porttitor</p>
+            <p>Aenean rutrum sollicitudin laoreet. Praesent viverra ante nulla, sed vehicula sapien pulvinar at. Proin eleifend, enim et convallis porttitor, magna eros lobortis sem, ac finibus sem turpis vel nunc. Proin condimentum tempor lectus quis vestibulum. Donec quis laoreet odio. Praesent felis nibh, tincidunt quis dui vitae, viverra fermentum nunc. Nam volutpat maximus pulvinar. Mauris semper tortor quis auctor blandit. Nunc gravida auctor quam, ac lacinia velit condimentum at. Vivamus bibendum tincidunt vestibulum. Duis ut odio in ex lacinia vestibulum. Phasellus ultricies eros at finibus ultricies. Nam sodales libero a felis luctus euismod. Mauris fringilla sem sed metus tempor pulvinar in in lorem.</p>
+          </div>
+        </div>
+      </div>
+    </div><!--end main row-->
+  </div> <!-- end container -->
+
+  <div class="container somespace">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <!--Column 1 -->
+          <div class = "col-xs-12 col-md-5">
+            <div class="img-placeholder"></div>
+          </div>
+          <!--Column 2-->
+          <div class = "col-xs-12 col-md-6">
+            <h3>Aut Viam Inveniam Aut Faciam</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget metus ligula. Maecenas vel metus in eros rhoncus luctus in in ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae turpis felis. Quisque egestas felis a tincidunt auctor. Integer sit amet nunc ut lacus hendrerit dictum eget ut sem. Cras id ullamcorper sapien, et ultricies tellus. Proin aliquet vehicula porttitor</p>
+            <p>Aenean rutrum sollicitudin laoreet. Praesent viverra ante nulla, sed vehicula sapien pulvinar at. Proin eleifend, enim et convallis porttitor, magna eros lobortis sem, ac finibus sem turpis vel nunc. Proin condimentum tempor lectus quis vestibulum. Donec quis laoreet odio. Praesent felis nibh, tincidunt quis dui vitae, viverra fermentum nunc. Nam volutpat maximus pulvinar. Mauris semper tortor quis auctor blandit. Nunc gravida auctor quam, ac lacinia velit condimentum at. Vivamus bibendum tincidunt vestibulum. Duis ut odio in ex lacinia vestibulum. Phasellus ultricies eros at finibus ultricies. Nam sodales libero a felis luctus euismod. Mauris fringilla sem sed metus tempor pulvinar in in lorem.</p>
+          </div>
+        </div>
+      </div>
+    </div><!--end main row-->
+  </div> <!-- end container -->
+
+<!-- Ad Tag Container: Below the Fold -->
+<div class = "container-fluid">
+
+</div>
+
+<!-- End Tag Container-->
+
+  <div class="container somespace">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <!--Column 1 -->
+          <div class = "col-xs-12 col-md-5">
+            <div class="img-placeholder"></div>
+          </div>
+          <!--Column 2-->
+          <div class = "col-xs-12 col-md-6">
+          <h3>Ad Finem</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget metus ligula. Maecenas vel metus in eros rhoncus luctus in in ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae turpis felis. Quisque egestas felis a tincidunt auctor. Integer sit amet nunc ut lacus hendrerit dictum eget ut sem. Cras id ullamcorper sapien, et ultricies tellus. Proin aliquet vehicula porttitor</p>
+            <p>Aenean rutrum sollicitudin laoreet. Praesent viverra ante nulla, sed vehicula sapien pulvinar at. Proin eleifend, enim et convallis porttitor, magna eros lobortis sem, ac finibus sem turpis vel nunc. Proin condimentum tempor lectus quis vestibulum. Donec quis laoreet odio. Praesent felis nibh, tincidunt quis dui vitae, viverra fermentum nunc. Nam volutpat maximus pulvinar. Mauris semper tortor quis auctor blandit. Nunc gravida auctor quam, ac lacinia velit condimentum at. Vivamus bibendum tincidunt vestibulum. Duis ut odio in ex lacinia vestibulum. Phasellus ultricies eros at finibus ultricies. Nam sodales libero a felis luctus euismod. Mauris fringilla sem sed metus tempor pulvinar in in lorem.</p>
+          </div>
+        </div>
+      </div>
+    </div><!--end main row-->
+  </div> <!-- end container -->
+
+  <div class="container somespace">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <!--Column 1 -->
+          <div class = "col-xs-12 col-md-5">
+            <div class="img-placeholder"></div>
+          </div>
+          <!--Column 2-->
+
+          <div class = "col-xs-12 col-md-6">
+          <h3>Ad Finem</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget metus ligula. Maecenas vel metus in eros rhoncus luctus in in ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae turpis felis. Quisque egestas felis a tincidunt auctor. Integer sit amet nunc ut lacus hendrerit dictum eget ut sem. Cras id ullamcorper sapien, et ultricies tellus. Proin aliquet vehicula porttitor</p>
+            <p>Aenean rutrum sollicitudin laoreet. Praesent viverra ante nulla, sed vehicula sapien pulvinar at. Proin eleifend, enim et convallis porttitor, magna eros lobortis sem, ac finibus sem turpis vel nunc. Proin condimentum tempor lectus quis vestibulum. Donec quis laoreet odio. Praesent felis nibh, tincidunt quis dui vitae, viverra fermentum nunc. Nam volutpat maximus pulvinar. Mauris semper tortor quis auctor blandit. Nunc gravida auctor quam, ac lacinia velit condimentum at. Vivamus bibendum tincidunt vestibulum. Duis ut odio in ex lacinia vestibulum. Phasellus ultricies eros at finibus ultricies. Nam sodales libero a felis luctus euismod. Mauris fringilla sem sed metus tempor pulvinar in in lorem.</p>
+          </div>
+        </div>
+      </div>
+    </div><!--end main row-->
+  </div> <!-- end container -->
+
+<footer class = "footer">
+  <div class="container">
+    <img id="footer-logo" src="img/logo1.png">
+  </div>
+</footer>
+
+    <!--JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
